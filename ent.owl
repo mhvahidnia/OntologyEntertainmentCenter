@@ -1,0 +1,2287 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#"
+     xml:base="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#is_age_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Age"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#is_group_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Group"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#is_location_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_similar_type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_similar_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#is_time_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Time"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#is_use_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Use"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#is_age_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#is_age_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Age"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#is_group_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#is_group_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Group"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#is_location_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#is_location_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Location"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#is_more_popular -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#is_more_popular">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#is_time_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#is_time_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Time"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#is_use_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#is_use_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Use"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Age"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Aftab_Restaurant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Aftab_Restaurant">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#West"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Restaurant"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Age -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Age"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#AmirKabir_Park -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#AmirKabir_Park">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#West"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Park"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#AmirKabir_Restaurant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#AmirKabir_Restaurant">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#East"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Restaurant"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#AmirKabir_Sport_Gym -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#AmirKabir_Sport_Gym">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#East"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Sport_Club"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Around -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Around">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Aseman_Mall -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Aseman_Mall">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#North"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Shopping_Center"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Atlas_Mall -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Atlas_Mall">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#East"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Shopping_Center"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Azadi_Park -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Azadi_Park">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#North"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Park"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Baghban_Park -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Baghban_Park">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#East"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Park"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Barg_Restaurant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Barg_Restaurant">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#South"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Restaurant"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Bazar_Caravanserai -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Bazar_Caravanserai">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Center"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Tourist_Attraction"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Cafe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Cafe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Use"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Center -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Center">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#ChaharFasl_Museum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#ChaharFasl_Museum">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Center"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Museum"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Chepeghli_Spring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Chepeghli_Spring">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#West"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Tourist_Attraction"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Age"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Cinema -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Cinema">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Use"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#CityCenter_Malls -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#CityCenter_Malls">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Center"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Shopping_Center"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Time"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#East -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#East">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Group"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Farhang_Cafe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Farhang_Cafe">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Center"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Cafe"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Farhang_Cinema -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Farhang_Cinema">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Center"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Cinema"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Group"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Game_Center -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Game_Center">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Use"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#GhezelPark_Restaurant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#GhezelPark_Restaurant">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Around"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Restaurant"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Group"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Haftad_Ghole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Haftad_Ghole">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Around"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Tourist_Attraction"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#HajVakil_Catle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#HajVakil_Catle">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#South"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Tourist_Attraction"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Jungle_Park -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Jungle_Park">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Around"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Park"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Karen_Cafe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Karen_Cafe">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#East"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Cafe"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Khorshid_Restaurant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Khorshid_Restaurant">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#North"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Restaurant"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Lale_Game_Center -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Lale_Game_Center">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#East"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Game_Center"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Library -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Library">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Use"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Mafakher_Museum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Mafakher_Museum">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#South"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Museum"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Meighan_Wetland -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Meighan_Wetland">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#North"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Tourist_Attraction"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Melat_Park -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Melat_Park">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Center"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Park"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Museum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Museum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Use"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#North -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#North">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Age"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Park -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Park">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Use"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Pars_Restaurant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Pars_Restaurant">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Center"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Restaurant"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Poone_Park -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Poone_Park">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#South"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Park"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Public_Library -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Public_Library">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Center"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Library"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Restaurant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Restaurant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Use"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Shadi_Game_Center -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Shadi_Game_Center">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#South"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Game_Center"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Shahr_Cinema -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Shahr_Cinema">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#East"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Night"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Cinema"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Shopping_Center -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Shopping_Center">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Use"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Group"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#South -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#South">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Sport_Club -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Sport_Club">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Use"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Time"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Tourist_Attraction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Tourist_Attraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Use"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Use -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Use"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#West -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#West">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#WildLife_Museum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#WildLife_Museum">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#East"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Museum"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Zoo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Zoo">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#East"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Tourist_Attraction"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#5Mordad_Sport_Gym -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#5Mordad_Sport_Gym">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_age"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_group"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_location"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#North"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_time"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Day"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#has_use"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Sport_Club"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Adult"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Child_Teenager"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Old"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Aftab_Restaurant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#AmirKabir_Park"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#AmirKabir_Restaurant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#AmirKabir_Sport_Gym"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Aseman_Mall"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Atlas_Mall"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Azadi_Park"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Baghban_Park"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Barg_Restaurant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Bazar_Caravanserai"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#ChaharFasl_Museum"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Chepeghli_Spring"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#CityCenter_Malls"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Farhang_Cafe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Farhang_Cinema"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#GhezelPark_Restaurant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Haftad_Ghole"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#HajVakil_Catle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Jungle_Park"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Karen_Cafe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Khorshid_Restaurant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Lale_Game_Center"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Mafakher_Museum"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Meighan_Wetland"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Melat_Park"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Pars_Restaurant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Poone_Park"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Public_Library"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Shadi_Game_Center"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Shahr_Cinema"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#WildLife_Museum"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Zoo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#5Mordad_Sport_Gym"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Age"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Entertainment_Center"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Group"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Location"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Time"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Use"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Around"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Center"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#East"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#North"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#South"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#West"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Cafe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Cinema"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Game_Center"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Library"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Museum"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Park"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Restaurant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Shopping_Center"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Sport_Club"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Tourist_Attraction"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Family"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Friends"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ghasedak/ontologies/2021/4/untitled-ontology-19#Single"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
